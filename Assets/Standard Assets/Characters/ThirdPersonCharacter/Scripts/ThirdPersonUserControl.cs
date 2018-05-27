@@ -13,7 +13,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
 
+        // Paul added
+        private Vector3 m_MoveDir = Vector3.zero;
+        //private CharacterController m_CharacterController;
+        public float controller_height;
+        public float controller_radius;
+        private Vector2 m_Input;
         
+
         private void Start()
         {
             // get the transform of the main camera
@@ -30,6 +37,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
             // get the third person character ( this should never be null due to require component )
             m_Character = GetComponent<ThirdPersonCharacter>();
+            
         }
 
 
@@ -40,16 +48,38 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
         }
-
-
+        
+        
         // Fixed update is called in sync with physics
         private void FixedUpdate()
         {
             // read inputs
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
             float v = CrossPlatformInputManager.GetAxis("Vertical");
+            m_Input = new Vector2(h, v);
             bool crouch = Input.GetKey(KeyCode.C);
+            Vector2 facingDirection = new Vector2(h, v);
+            Vector3 desiredMove = transform.forward * m_Input.y + transform.right * m_Input.x;
 
+            // get a normal for the surface that is being touched to move along it
+            RaycastHit hitInfo;
+            
+            Physics.SphereCast(transform.position, controller_radius, Vector3.down, out hitInfo,
+                               controller_height / 2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
+            desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
+            float speed = 1.0f;
+#if !MOBILE_INPUT
+            // walk speed multiplier
+            if(Input.GetKey(KeyCode.LeftShift))
+            {
+                speed = 1.5f;
+            }
+            
+#endif
+            
+            m_MoveDir.x = desiredMove.x * speed;
+            m_MoveDir.z = desiredMove.z * speed;
+            /*
             // calculate move direction to pass to character
             if (m_Cam != null)
             {
@@ -62,14 +92,12 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 // we use world-relative directions in the case of no main camera
                 m_Move = v*Vector3.forward + h*Vector3.right;
             }
-#if !MOBILE_INPUT
-			// walk speed multiplier
-	        if (Input.GetKey(KeyCode.LeftShift)) m_Move *= 0.5f;
-#endif
+             */
 
             // pass all parameters to the character control script
-            m_Character.Move(m_Move, crouch, m_Jump);
+            m_Character.Move(m_MoveDir, crouch, m_Jump);
             m_Jump = false;
         }
+        
     }
 }

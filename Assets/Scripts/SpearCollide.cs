@@ -9,10 +9,23 @@ public class SpearCollide : MonoBehaviour {
 	void Start () {
 		
 	}
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        /*
+        if (hit.gameObject.tag == "Collectable")
+        {
+            
+        }
+        */
+        Debug.Log("(SpearCollide) Collision with " + hit.gameObject.name);
+    }
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Opponent")
+        Debug.Log("(SpearCollide)  on collision enter!");
+        Debug.Log(collision.gameObject.tag);
+        if (collision.gameObject.tag == "Opponent")
         {
+            Debug.Log("Boom!");
             ScoreDisplay scoreDisplay = ScoreDisplay.GetComponent<ScoreDisplay>();
 
             Destroy(collision.gameObject, 0);
