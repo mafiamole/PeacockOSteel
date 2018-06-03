@@ -1,0 +1,794 @@
+fileFormatVersion: 2
+guid: d8aa4803c6581194eaae23b98b719fa6
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: door1
+    100002: floor1
+    100004: head
+    100006: pCube1
+    100008: pCube10
+    100010: pCube11
+    100012: pCube2
+    100014: pCube3
+    100016: pCube4
+    100018: pCube6
+    100020: pCube8
+    100022: pCube9
+    100024: pCylinder2
+    100026: pCylinder2 1
+    100028: pCylinder2 2
+    100030: pCylinder2 3
+    100032: pCylinder2 4
+    100034: pCylinder2 5
+    100036: pCylinder3
+    100038: pCylinder3 1
+    100040: pCylinder3 2
+    100042: pCylinder3 3
+    100044: pCylinder3 4
+    100046: pCylinder3 5
+    100048: pCylinder4
+    100050: pCylinder4 1
+    100052: pCylinder4 2
+    100054: pCylinder4 3
+    100056: pCylinder4 4
+    100058: pCylinder4 5
+    100060: pCylinder5
+    100062: pCylinder5 1
+    100064: pCylinder5 2
+    100066: pCylinder5 3
+    100068: pCylinder5 4
+    100070: pCylinder5 5
+    100072: pCylinder50
+    100074: pCylinder51
+    100076: pCylinder6
+    100078: pCylinder6 1
+    100080: pCylinder6 2
+    100082: pCylinder6 3
+    100084: pCylinder6 4
+    100086: pCylinder6 5
+    100088: peacok_low_GT2017_v2:Mesh
+    100090: pillar
+    100092: pillar10
+    100094: pillar11
+    100096: pillar7
+    100098: pillar8
+    100100: pillar9
+    100102: pillarhead
+    100104: pillarhead 1
+    100106: pillarhead 10
+    100108: pillarhead 11
+    100110: pillarhead 2
+    100112: pillarhead 3
+    100114: pillarhead 4
+    100116: pillarhead 5
+    100118: pillarhead 6
+    100120: pillarhead 7
+    100122: pillarhead 8
+    100124: pillarhead 9
+    100126: small_pillar
+    100128: small_pillar1
+    100130: small_pillar2
+    100132: small_pillar3
+    100134: small_pillar4
+    100136: small_pillar5
+    100138: throne
+    100140: transform1
+    100142: transform2
+    100144: transform3
+    100146: transform4
+    100148: transform5
+    100150: transform6
+    100152: UCX_floor
+    100154: UCX_floor1
+    100156: UCX_floor2
+    100158: UCX_peacock
+    100160: UCX_wall_01
+    100162: UCX_wall_010
+    100164: UCX_wall_011
+    100166: UCX_wall_012
+    100168: UCX_wall_013
+    100170: UCX_wall_014
+    100172: UCX_wall_02
+    100174: UCX_wall_03
+    100176: UCX_wall_04
+    100178: UCX_wall_05
+    100180: UCX_wall_06
+    100182: UCX_wall_07
+    100184: UCX_wall_08
+    100186: UCX_wall_09
+    100188: window
+    100190: window10
+    100192: window11
+    100194: window12
+    100196: window13
+    100198: window14
+    100200: window15
+    100202: window16
+    100204: window17
+    100206: window18
+    100208: window19
+    100210: window20
+    100212: window21
+    100214: window22
+    100216: window23
+    100218: window24
+    100220: window25
+    100222: window26
+    100224: window27
+    100226: window3
+    100228: window4
+    100230: window5
+    100232: window6
+    100234: window7
+    100236: window8
+    100238: window9
+    100240: window_frame
+    100242: window_frame 1
+    100244: window_frame 10
+    100246: window_frame 11
+    100248: window_frame 12
+    100250: window_frame 13
+    100252: window_frame 14
+    100254: window_frame 15
+    100256: window_frame 16
+    100258: window_frame 17
+    100260: window_frame 18
+    100262: window_frame 19
+    100264: window_frame 2
+    100266: window_frame 20
+    100268: window_frame 21
+    100270: window_frame 22
+    100272: window_frame 23
+    100274: window_frame 24
+    100276: window_frame 25
+    100278: window_frame 3
+    100280: window_frame 4
+    100282: window_frame 5
+    100284: window_frame 6
+    100286: window_frame 7
+    100288: window_frame 8
+    100290: window_frame 9
+    100292: //RootNode
+    400000: door1
+    400002: floor1
+    400004: head
+    400006: pCube1
+    400008: pCube10
+    400010: pCube11
+    400012: pCube2
+    400014: pCube3
+    400016: pCube4
+    400018: pCube6
+    400020: pCube8
+    400022: pCube9
+    400024: pCylinder2
+    400026: pCylinder2 1
+    400028: pCylinder2 2
+    400030: pCylinder2 3
+    400032: pCylinder2 4
+    400034: pCylinder2 5
+    400036: pCylinder3
+    400038: pCylinder3 1
+    400040: pCylinder3 2
+    400042: pCylinder3 3
+    400044: pCylinder3 4
+    400046: pCylinder3 5
+    400048: pCylinder4
+    400050: pCylinder4 1
+    400052: pCylinder4 2
+    400054: pCylinder4 3
+    400056: pCylinder4 4
+    400058: pCylinder4 5
+    400060: pCylinder5
+    400062: pCylinder5 1
+    400064: pCylinder5 2
+    400066: pCylinder5 3
+    400068: pCylinder5 4
+    400070: pCylinder5 5
+    400072: pCylinder50
+    400074: pCylinder51
+    400076: pCylinder6
+    400078: pCylinder6 1
+    400080: pCylinder6 2
+    400082: pCylinder6 3
+    400084: pCylinder6 4
+    400086: pCylinder6 5
+    400088: peacok_low_GT2017_v2:Mesh
+    400090: pillar
+    400092: pillar10
+    400094: pillar11
+    400096: pillar7
+    400098: pillar8
+    400100: pillar9
+    400102: pillarhead
+    400104: pillarhead 1
+    400106: pillarhead 10
+    400108: pillarhead 11
+    400110: pillarhead 2
+    400112: pillarhead 3
+    400114: pillarhead 4
+    400116: pillarhead 5
+    400118: pillarhead 6
+    400120: pillarhead 7
+    400122: pillarhead 8
+    400124: pillarhead 9
+    400126: small_pillar
+    400128: small_pillar1
+    400130: small_pillar2
+    400132: small_pillar3
+    400134: small_pillar4
+    400136: small_pillar5
+    400138: throne
+    400140: transform1
+    400142: transform2
+    400144: transform3
+    400146: transform4
+    400148: transform5
+    400150: transform6
+    400152: UCX_floor
+    400154: UCX_floor1
+    400156: UCX_floor2
+    400158: UCX_peacock
+    400160: UCX_wall_01
+    400162: UCX_wall_010
+    400164: UCX_wall_011
+    400166: UCX_wall_012
+    400168: UCX_wall_013
+    400170: UCX_wall_014
+    400172: UCX_wall_02
+    400174: UCX_wall_03
+    400176: UCX_wall_04
+    400178: UCX_wall_05
+    400180: UCX_wall_06
+    400182: UCX_wall_07
+    400184: UCX_wall_08
+    400186: UCX_wall_09
+    400188: window
+    400190: window10
+    400192: window11
+    400194: window12
+    400196: window13
+    400198: window14
+    400200: window15
+    400202: window16
+    400204: window17
+    400206: window18
+    400208: window19
+    400210: window20
+    400212: window21
+    400214: window22
+    400216: window23
+    400218: window24
+    400220: window25
+    400222: window26
+    400224: window27
+    400226: window3
+    400228: window4
+    400230: window5
+    400232: window6
+    400234: window7
+    400236: window8
+    400238: window9
+    400240: window_frame
+    400242: window_frame 1
+    400244: window_frame 10
+    400246: window_frame 11
+    400248: window_frame 12
+    400250: window_frame 13
+    400252: window_frame 14
+    400254: window_frame 15
+    400256: window_frame 16
+    400258: window_frame 17
+    400260: window_frame 18
+    400262: window_frame 19
+    400264: window_frame 2
+    400266: window_frame 20
+    400268: window_frame 21
+    400270: window_frame 22
+    400272: window_frame 23
+    400274: window_frame 24
+    400276: window_frame 25
+    400278: window_frame 3
+    400280: window_frame 4
+    400282: window_frame 5
+    400284: window_frame 6
+    400286: window_frame 7
+    400288: window_frame 8
+    400290: window_frame 9
+    400292: //RootNode
+    2100000: pillar6
+    2100002: lambert6
+    2100004: edge
+    2100006: lambert5
+    2100008: head1
+    2100010: window2
+    2100012: wall
+    2100014: lambert1
+    2100016: lambert12
+    2100018: peacok_low_GT2017_v2_material_1
+    2100020: floor
+    2100022: door
+    2300000: door1
+    2300002: floor1
+    2300004: head
+    2300006: pCube10
+    2300008: pCube11
+    2300010: pCube3
+    2300012: pCube4
+    2300014: pCylinder2
+    2300016: pCylinder2 1
+    2300018: pCylinder2 2
+    2300020: pCylinder2 3
+    2300022: pCylinder2 4
+    2300024: pCylinder2 5
+    2300026: pCylinder3
+    2300028: pCylinder3 1
+    2300030: pCylinder3 2
+    2300032: pCylinder3 3
+    2300034: pCylinder3 4
+    2300036: pCylinder3 5
+    2300038: pCylinder4
+    2300040: pCylinder4 1
+    2300042: pCylinder4 2
+    2300044: pCylinder4 3
+    2300046: pCylinder4 4
+    2300048: pCylinder4 5
+    2300050: pCylinder5
+    2300052: pCylinder5 1
+    2300054: pCylinder5 2
+    2300056: pCylinder5 3
+    2300058: pCylinder5 4
+    2300060: pCylinder5 5
+    2300062: pCylinder51
+    2300064: pCylinder6
+    2300066: pCylinder6 1
+    2300068: pCylinder6 2
+    2300070: pCylinder6 3
+    2300072: pCylinder6 4
+    2300074: pCylinder6 5
+    2300076: peacok_low_GT2017_v2:Mesh
+    2300078: pillar
+    2300080: pillar10
+    2300082: pillar11
+    2300084: pillar7
+    2300086: pillar8
+    2300088: pillar9
+    2300090: pillarhead
+    2300092: pillarhead 1
+    2300094: pillarhead 10
+    2300096: pillarhead 11
+    2300098: pillarhead 2
+    2300100: pillarhead 3
+    2300102: pillarhead 4
+    2300104: pillarhead 5
+    2300106: pillarhead 6
+    2300108: pillarhead 7
+    2300110: pillarhead 8
+    2300112: pillarhead 9
+    2300114: small_pillar
+    2300116: small_pillar1
+    2300118: small_pillar2
+    2300120: small_pillar3
+    2300122: small_pillar4
+    2300124: small_pillar5
+    2300126: throne
+    2300128: UCX_floor
+    2300130: UCX_floor1
+    2300132: UCX_floor2
+    2300134: UCX_peacock
+    2300136: UCX_wall_01
+    2300138: UCX_wall_010
+    2300140: UCX_wall_011
+    2300142: UCX_wall_012
+    2300144: UCX_wall_013
+    2300146: UCX_wall_014
+    2300148: UCX_wall_02
+    2300150: UCX_wall_03
+    2300152: UCX_wall_04
+    2300154: UCX_wall_05
+    2300156: UCX_wall_06
+    2300158: UCX_wall_07
+    2300160: UCX_wall_08
+    2300162: UCX_wall_09
+    2300164: window
+    2300166: window10
+    2300168: window11
+    2300170: window12
+    2300172: window13
+    2300174: window14
+    2300176: window15
+    2300178: window16
+    2300180: window17
+    2300182: window18
+    2300184: window19
+    2300186: window20
+    2300188: window21
+    2300190: window22
+    2300192: window23
+    2300194: window24
+    2300196: window25
+    2300198: window26
+    2300200: window27
+    2300202: window3
+    2300204: window4
+    2300206: window5
+    2300208: window6
+    2300210: window7
+    2300212: window8
+    2300214: window9
+    2300216: window_frame
+    2300218: window_frame 1
+    2300220: window_frame 10
+    2300222: window_frame 11
+    2300224: window_frame 12
+    2300226: window_frame 13
+    2300228: window_frame 14
+    2300230: window_frame 15
+    2300232: window_frame 16
+    2300234: window_frame 17
+    2300236: window_frame 18
+    2300238: window_frame 19
+    2300240: window_frame 2
+    2300242: window_frame 20
+    2300244: window_frame 21
+    2300246: window_frame 22
+    2300248: window_frame 23
+    2300250: window_frame 24
+    2300252: window_frame 25
+    2300254: window_frame 3
+    2300256: window_frame 4
+    2300258: window_frame 5
+    2300260: window_frame 6
+    2300262: window_frame 7
+    2300264: window_frame 8
+    2300266: window_frame 9
+    3300000: door1
+    3300002: floor1
+    3300004: head
+    3300006: pCube10
+    3300008: pCube11
+    3300010: pCube3
+    3300012: pCube4
+    3300014: pCylinder2
+    3300016: pCylinder2 1
+    3300018: pCylinder2 2
+    3300020: pCylinder2 3
+    3300022: pCylinder2 4
+    3300024: pCylinder2 5
+    3300026: pCylinder3
+    3300028: pCylinder3 1
+    3300030: pCylinder3 2
+    3300032: pCylinder3 3
+    3300034: pCylinder3 4
+    3300036: pCylinder3 5
+    3300038: pCylinder4
+    3300040: pCylinder4 1
+    3300042: pCylinder4 2
+    3300044: pCylinder4 3
+    3300046: pCylinder4 4
+    3300048: pCylinder4 5
+    3300050: pCylinder5
+    3300052: pCylinder5 1
+    3300054: pCylinder5 2
+    3300056: pCylinder5 3
+    3300058: pCylinder5 4
+    3300060: pCylinder5 5
+    3300062: pCylinder51
+    3300064: pCylinder6
+    3300066: pCylinder6 1
+    3300068: pCylinder6 2
+    3300070: pCylinder6 3
+    3300072: pCylinder6 4
+    3300074: pCylinder6 5
+    3300076: peacok_low_GT2017_v2:Mesh
+    3300078: pillar
+    3300080: pillar10
+    3300082: pillar11
+    3300084: pillar7
+    3300086: pillar8
+    3300088: pillar9
+    3300090: pillarhead
+    3300092: pillarhead 1
+    3300094: pillarhead 10
+    3300096: pillarhead 11
+    3300098: pillarhead 2
+    3300100: pillarhead 3
+    3300102: pillarhead 4
+    3300104: pillarhead 5
+    3300106: pillarhead 6
+    3300108: pillarhead 7
+    3300110: pillarhead 8
+    3300112: pillarhead 9
+    3300114: small_pillar
+    3300116: small_pillar1
+    3300118: small_pillar2
+    3300120: small_pillar3
+    3300122: small_pillar4
+    3300124: small_pillar5
+    3300126: throne
+    3300128: UCX_floor
+    3300130: UCX_floor1
+    3300132: UCX_floor2
+    3300134: UCX_peacock
+    3300136: UCX_wall_01
+    3300138: UCX_wall_010
+    3300140: UCX_wall_011
+    3300142: UCX_wall_012
+    3300144: UCX_wall_013
+    3300146: UCX_wall_014
+    3300148: UCX_wall_02
+    3300150: UCX_wall_03
+    3300152: UCX_wall_04
+    3300154: UCX_wall_05
+    3300156: UCX_wall_06
+    3300158: UCX_wall_07
+    3300160: UCX_wall_08
+    3300162: UCX_wall_09
+    3300164: window
+    3300166: window10
+    3300168: window11
+    3300170: window12
+    3300172: window13
+    3300174: window14
+    3300176: window15
+    3300178: window16
+    3300180: window17
+    3300182: window18
+    3300184: window19
+    3300186: window20
+    3300188: window21
+    3300190: window22
+    3300192: window23
+    3300194: window24
+    3300196: window25
+    3300198: window26
+    3300200: window27
+    3300202: window3
+    3300204: window4
+    3300206: window5
+    3300208: window6
+    3300210: window7
+    3300212: window8
+    3300214: window9
+    3300216: window_frame
+    3300218: window_frame 1
+    3300220: window_frame 10
+    3300222: window_frame 11
+    3300224: window_frame 12
+    3300226: window_frame 13
+    3300228: window_frame 14
+    3300230: window_frame 15
+    3300232: window_frame 16
+    3300234: window_frame 17
+    3300236: window_frame 18
+    3300238: window_frame 19
+    3300240: window_frame 2
+    3300242: window_frame 20
+    3300244: window_frame 21
+    3300246: window_frame 22
+    3300248: window_frame 23
+    3300250: window_frame 24
+    3300252: window_frame 25
+    3300254: window_frame 3
+    3300256: window_frame 4
+    3300258: window_frame 5
+    3300260: window_frame 6
+    3300262: window_frame 7
+    3300264: window_frame 8
+    3300266: window_frame 9
+    4300000: pillar
+    4300002: pCylinder2
+    4300004: pCylinder4
+    4300006: pCylinder5
+    4300008: pCylinder6
+    4300010: pCylinder3
+    4300012: pillarhead
+    4300014: head
+    4300016: window
+    4300018: window_frame
+    4300020: window3
+    4300022: window_frame
+    4300024: window4
+    4300026: window_frame
+    4300028: window5
+    4300030: window_frame
+    4300032: window6
+    4300034: window_frame
+    4300036: window7
+    4300038: window_frame
+    4300040: window8
+    4300042: window_frame
+    4300044: window9
+    4300046: window_frame
+    4300048: window10
+    4300050: window_frame
+    4300052: window11
+    4300054: window_frame
+    4300056: window12
+    4300058: window_frame
+    4300060: window13
+    4300062: window_frame
+    4300064: window14
+    4300066: window_frame
+    4300068: window15
+    4300070: window_frame
+    4300072: window16
+    4300074: window_frame
+    4300076: window17
+    4300078: window_frame
+    4300080: window18
+    4300082: window_frame
+    4300084: window19
+    4300086: window_frame
+    4300088: window20
+    4300090: window_frame
+    4300092: window21
+    4300094: window_frame
+    4300096: window22
+    4300098: window_frame
+    4300100: window23
+    4300102: window_frame
+    4300104: window24
+    4300106: window_frame
+    4300108: window25
+    4300110: window_frame
+    4300112: window26
+    4300114: window_frame
+    4300116: window27
+    4300118: window_frame
+    4300120: pillar7
+    4300122: pCylinder2
+    4300124: pCylinder4
+    4300126: pCylinder5
+    4300128: pCylinder6
+    4300130: pCylinder3
+    4300132: pillarhead
+    4300134: pillar8
+    4300136: pCylinder2
+    4300138: pCylinder4
+    4300140: pCylinder5
+    4300142: pCylinder6
+    4300144: pCylinder3
+    4300146: pillarhead
+    4300148: pillar9
+    4300150: pCylinder2
+    4300152: pCylinder4
+    4300154: pCylinder5
+    4300156: pCylinder6
+    4300158: pCylinder3
+    4300160: pillarhead
+    4300162: pillar10
+    4300164: pCylinder2
+    4300166: pCylinder4
+    4300168: pCylinder5
+    4300170: pCylinder6
+    4300172: pCylinder3
+    4300174: pillarhead
+    4300176: pillar11
+    4300178: pCylinder2
+    4300180: pCylinder4
+    4300182: pCylinder5
+    4300184: pCylinder6
+    4300186: pCylinder3
+    4300188: pillarhead
+    4300190: small_pillar
+    4300192: pillarhead
+    4300194: small_pillar1
+    4300196: pillarhead
+    4300198: small_pillar2
+    4300200: pillarhead
+    4300202: small_pillar3
+    4300204: pillarhead
+    4300206: small_pillar4
+    4300208: pillarhead
+    4300210: small_pillar5
+    4300212: pillarhead
+    4300214: pCube3
+    4300216: pCube4
+    4300218: throne
+    4300220: peacok_low_GT2017_v2:Mesh
+    4300222: floor1
+    4300224: pCylinder51
+    4300226: door1
+    4300228: pCube10
+    4300230: pCube11
+    4300232: UCX_floor
+    4300234: UCX_wall_01
+    4300236: UCX_wall_02
+    4300238: UCX_wall_03
+    4300240: UCX_wall_04
+    4300242: UCX_wall_05
+    4300244: UCX_wall_06
+    4300246: UCX_wall_07
+    4300248: UCX_wall_08
+    4300250: UCX_wall_09
+    4300252: UCX_wall_010
+    4300254: UCX_wall_011
+    4300256: UCX_wall_012
+    4300258: UCX_wall_013
+    4300260: UCX_wall_014
+    4300262: UCX_floor1
+    4300264: UCX_peacock
+    4300266: UCX_floor2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -26,9 +26,12 @@ public class PlayerCollect : MonoBehaviour {
         
         if(collision.collider.tag == "Weapon")
         {
-            Debug.Log("(PlayerCollect) Damage received");
             pointsOfGeneralHealthAndWellbeing -= 5;
             pointsOfGeneralHealthAndWellbeingDisplay.text = "Points of General Health and Well Being : " + pointsOfGeneralHealthAndWellbeing;
+        }
+        if (collision.collider.tag == "DestroyableObject")
+        {
+            Destroy(collision.gameObject);
         }
     }
     // Update is called once per frame

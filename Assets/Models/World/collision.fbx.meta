@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: f2f83a5ae07c413478c1ea9f457b85e9
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: UCX_floor1
+    100004: UCX_floor2
+    100006: UCX_peacock
+    100008: UCX_wall_01
+    100010: UCX_wall_010
+    100012: UCX_wall_011
+    100014: UCX_wall_012
+    100016: UCX_wall_013
+    100018: UCX_wall_014
+    100020: UCX_wall_02
+    100022: UCX_wall_03
+    100024: UCX_wall_04
+    100026: UCX_wall_05
+    100028: UCX_wall_06
+    100030: UCX_wall_07
+    100032: UCX_wall_08
+    100034: UCX_wall_09
+    100036: Camera
+    100038: Lamp
+    100040: UCX_floor
+    400000: //RootNode
+    400002: UCX_floor1
+    400004: UCX_floor2
+    400006: UCX_peacock
+    400008: UCX_wall_01
+    400010: UCX_wall_010
+    400012: UCX_wall_011
+    400014: UCX_wall_012
+    400016: UCX_wall_013
+    400018: UCX_wall_014
+    400020: UCX_wall_02
+    400022: UCX_wall_03
+    400024: UCX_wall_04
+    400026: UCX_wall_05
+    400028: UCX_wall_06
+    400030: UCX_wall_07
+    400032: UCX_wall_08
+    400034: UCX_wall_09
+    400036: Camera
+    400038: Lamp
+    400040: UCX_floor
+    2000000: Camera
+    2100000: lambert1
+    2300000: //RootNode
+    2300002: UCX_floor1
+    2300004: UCX_floor2
+    2300006: UCX_peacock
+    2300008: UCX_wall_01
+    2300010: UCX_wall_010
+    2300012: UCX_wall_011
+    2300014: UCX_wall_012
+    2300016: UCX_wall_013
+    2300018: UCX_wall_014
+    2300020: UCX_wall_02
+    2300022: UCX_wall_03
+    2300024: UCX_wall_04
+    2300026: UCX_wall_05
+    2300028: UCX_wall_06
+    2300030: UCX_wall_07
+    2300032: UCX_wall_08
+    2300034: UCX_wall_09
+    2300036: UCX_floor
+    3300000: //RootNode
+    3300002: UCX_floor1
+    3300004: UCX_floor2
+    3300006: UCX_peacock
+    3300008: UCX_wall_01
+    3300010: UCX_wall_010
+    3300012: UCX_wall_011
+    3300014: UCX_wall_012
+    3300016: UCX_wall_013
+    3300018: UCX_wall_014
+    3300020: UCX_wall_02
+    3300022: UCX_wall_03
+    3300024: UCX_wall_04
+    3300026: UCX_wall_05
+    3300028: UCX_wall_06
+    3300030: UCX_wall_07
+    3300032: UCX_wall_08
+    3300034: UCX_wall_09
+    3300036: UCX_floor
+    4300000: UCX_floor
+    4300002: UCX_wall_01
+    4300004: UCX_wall_02
+    4300006: UCX_wall_03
+    4300008: UCX_wall_04
+    4300010: UCX_wall_05
+    4300012: UCX_wall_06
+    4300014: UCX_wall_07
+    4300016: UCX_wall_08
+    4300018: UCX_wall_09
+    4300020: UCX_wall_010
+    4300022: UCX_wall_011
+    4300024: UCX_wall_012
+    4300026: UCX_wall_013
+    4300028: UCX_wall_014
+    4300030: UCX_floor1
+    4300032: UCX_peacock
+    4300034: UCX_floor2
+    10800000: Lamp
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

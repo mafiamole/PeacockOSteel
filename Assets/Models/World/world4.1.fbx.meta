@@ -1,0 +1,997 @@
+fileFormatVersion: 2
+guid: f5d359073ed22994e8f927c6228f4541
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: dutchdragon3
+    100002: 'dutchdragon3 '
+    100004: floor1
+    100006: fountain_LOD0
+    100008: 'fountain_LOD0 '
+    100010: fountain_LOD0  1
+    100012: fountain_LOD0  2
+    100014: fountain_LOD1
+    100016: fountain_LOD1_1
+    100018: fountain_LOD1_2
+    100020: fountain_LOD1_3
+    100022: grass
+    100024: grass1
+    100026: grass2
+    100028: grass3
+    100030: grass_1
+    100032: head
+    100034: PalmTree_dual_bended_leafs_1sided
+    100036: PalmTree_dual_bended_leafs_2sided
+    100038: PalmTree_dual_bended_leafs_2sided_1
+    100040: PalmTree_dual_bended_leafs_2sided_2
+    100042: PalmTree_dual_bended_trunk
+    100044: PalmTree_dual_bended_trunk_1
+    100046: PalmTree_dual_bended_trunk_2
+    100048: PalmTree_dual_bended_trunk_3
+    100050: PalmTree_dual_leafs_1sided
+    100052: PalmTree_dual_leafs_1sided_1
+    100054: PalmTree_dual_leafs_1sided_2
+    100056: PalmTree_dual_leafs_2sided
+    100058: PalmTree_dual_trunk
+    100060: PalmTree_dual_trunk_1
+    100062: PalmTree_dual_trunk_2
+    100064: PalmTree_dual_trunk_3
+    100066: PalmTree_single_bended_leafs_1sided
+    100068: PalmTree_single_bended_leafs_1sided_1
+    100070: PalmTree_single_bended_leafs_2sided
+    100072: PalmTree_single_bended_leafs_2sided_1
+    100074: PalmTree_single_bended_leafs_2sided_2
+    100076: PalmTree_single_bended_leafs_2sided_3
+    100078: PalmTree_single_bended_trunk
+    100080: PalmTree_single_bended_trunk_1
+    100082: PalmTree_single_bended_trunk_2
+    100084: PalmTree_single_bended_trunk_3
+    100086: PalmTree_single_bended_trunk_4
+    100088: PalmTree_single_bended_trunk_5
+    100090: PalmTree_single_leafs_2sided
+    100092: PalmTree_single_trunk
+    100094: PalmTree_trio_leafs_1sided
+    100096: PalmTree_trio_leafs_2sided
+    100098: PalmTree_trio_trunk
+    100100: PalmTree_trio_trunk_1
+    100102: PalmTreeDualBendedOneSided
+    100104: PalmTreeDualBendedTwoSided
+    100106: 'PalmTreeDualBendedTwoSided '
+    100108: PalmTreeDualBendedTwoSided  1
+    100110: PalmTreeDualStraightOneSided
+    100112: 'PalmTreeDualStraightOneSided '
+    100114: PalmTreeDualStraightOneSided  1
+    100116: PalmTreeDualStraightTwoSided
+    100118: PalmTreeSingleBendedOneSided
+    100120: 'PalmTreeSingleBendedOneSided '
+    100122: PalmTreeSingleBendedTwoSided
+    100124: 'PalmTreeSingleBendedTwoSided '
+    100126: PalmTreeSingleBendedTwoSided  1
+    100128: PalmTreeSingleBendedTwoSided  2
+    100130: PalmTreeSingleStraightTwoSided
+    100132: PalmTreeTrioOneSided
+    100134: PalmTreeTrioTwoSided
+    100136: pCube10
+    100138: pCube11
+    100140: pCube3
+    100142: pCube4
+    100144: pCylinder2
+    100146: pCylinder2 1
+    100148: pCylinder2 2
+    100150: pCylinder2 3
+    100152: pCylinder2 4
+    100154: pCylinder2 5
+    100156: pCylinder3
+    100158: pCylinder3 1
+    100160: pCylinder3 2
+    100162: pCylinder3 3
+    100164: pCylinder3 4
+    100166: pCylinder3 5
+    100168: pCylinder4
+    100170: pCylinder4 1
+    100172: pCylinder4 2
+    100174: pCylinder4 3
+    100176: pCylinder4 4
+    100178: pCylinder4 5
+    100180: pCylinder5
+    100182: pCylinder5 1
+    100184: pCylinder5 2
+    100186: pCylinder5 3
+    100188: pCylinder5 4
+    100190: pCylinder5 5
+    100192: pCylinder51
+    100194: pCylinder6
+    100196: pCylinder6 1
+    100198: pCylinder6 2
+    100200: pCylinder6 3
+    100202: pCylinder6 4
+    100204: pCylinder6 5
+    100206: peacok_low_GT2017_v2:Mesh
+    100208: pillar10
+    100210: pillar11
+    100212: pillar12
+    100214: pillar13
+    100216: pillar14
+    100218: pillar9
+    100220: pillarhead
+    100222: pillarhead 1
+    100224: pillarhead 10
+    100226: pillarhead 11
+    100228: pillarhead 2
+    100230: pillarhead 3
+    100232: pillarhead 4
+    100234: pillarhead 5
+    100236: pillarhead 6
+    100238: pillarhead 7
+    100240: pillarhead 8
+    100242: pillarhead 9
+    100244: prefab
+    100246: 'prefab '
+    100248: prefab  1
+    100250: prefab  2
+    100252: prefab  3
+    100254: prefab  4
+    100256: small_pillar
+    100258: small_pillar1
+    100260: small_pillar2
+    100262: small_pillar3
+    100264: small_pillar4
+    100266: small_pillar5
+    100268: throne
+    100270: UCX_floor3
+    100272: window
+    100274: window10
+    100276: window11
+    100278: window12
+    100280: window13
+    100282: window14
+    100284: window15
+    100286: window16
+    100288: window17
+    100290: window18
+    100292: window19
+    100294: window20
+    100296: window21
+    100298: window22
+    100300: window23
+    100302: window24
+    100304: window25
+    100306: window26
+    100308: window27
+    100310: window28
+    100312: window29
+    100314: window30
+    100316: window31
+    100318: window32
+    100320: window7
+    100322: window8
+    100324: window_frame
+    100326: window_frame 1
+    100328: window_frame 10
+    100330: window_frame 11
+    100332: window_frame 12
+    100334: window_frame 13
+    100336: window_frame 14
+    100338: window_frame 15
+    100340: window_frame 16
+    100342: window_frame 17
+    100344: window_frame 18
+    100346: window_frame 19
+    100348: window_frame 2
+    100350: window_frame 20
+    100352: window_frame 21
+    100354: window_frame 22
+    100356: window_frame 23
+    100358: window_frame 24
+    100360: window_frame 25
+    100362: window_frame 3
+    100364: window_frame 4
+    100366: window_frame 5
+    100368: window_frame 6
+    100370: window_frame 7
+    100372: window_frame 8
+    100374: window_frame 9
+    100376: //RootNode
+    400000: dutchdragon3
+    400002: 'dutchdragon3 '
+    400004: floor1
+    400006: fountain_LOD0
+    400008: 'fountain_LOD0 '
+    400010: fountain_LOD0  1
+    400012: fountain_LOD0  2
+    400014: fountain_LOD1
+    400016: fountain_LOD1_1
+    400018: fountain_LOD1_2
+    400020: fountain_LOD1_3
+    400022: grass
+    400024: grass1
+    400026: grass2
+    400028: grass3
+    400030: grass_1
+    400032: head
+    400034: PalmTree_dual_bended_leafs_1sided
+    400036: PalmTree_dual_bended_leafs_2sided
+    400038: PalmTree_dual_bended_leafs_2sided_1
+    400040: PalmTree_dual_bended_leafs_2sided_2
+    400042: PalmTree_dual_bended_trunk
+    400044: PalmTree_dual_bended_trunk_1
+    400046: PalmTree_dual_bended_trunk_2
+    400048: PalmTree_dual_bended_trunk_3
+    400050: PalmTree_dual_leafs_1sided
+    400052: PalmTree_dual_leafs_1sided_1
+    400054: PalmTree_dual_leafs_1sided_2
+    400056: PalmTree_dual_leafs_2sided
+    400058: PalmTree_dual_trunk
+    400060: PalmTree_dual_trunk_1
+    400062: PalmTree_dual_trunk_2
+    400064: PalmTree_dual_trunk_3
+    400066: PalmTree_single_bended_leafs_1sided
+    400068: PalmTree_single_bended_leafs_1sided_1
+    400070: PalmTree_single_bended_leafs_2sided
+    400072: PalmTree_single_bended_leafs_2sided_1
+    400074: PalmTree_single_bended_leafs_2sided_2
+    400076: PalmTree_single_bended_leafs_2sided_3
+    400078: PalmTree_single_bended_trunk
+    400080: PalmTree_single_bended_trunk_1
+    400082: PalmTree_single_bended_trunk_2
+    400084: PalmTree_single_bended_trunk_3
+    400086: PalmTree_single_bended_trunk_4
+    400088: PalmTree_single_bended_trunk_5
+    400090: PalmTree_single_leafs_2sided
+    400092: PalmTree_single_trunk
+    400094: PalmTree_trio_leafs_1sided
+    400096: PalmTree_trio_leafs_2sided
+    400098: PalmTree_trio_trunk
+    400100: PalmTree_trio_trunk_1
+    400102: PalmTreeDualBendedOneSided
+    400104: PalmTreeDualBendedTwoSided
+    400106: 'PalmTreeDualBendedTwoSided '
+    400108: PalmTreeDualBendedTwoSided  1
+    400110: PalmTreeDualStraightOneSided
+    400112: 'PalmTreeDualStraightOneSided '
+    400114: PalmTreeDualStraightOneSided  1
+    400116: PalmTreeDualStraightTwoSided
+    400118: PalmTreeSingleBendedOneSided
+    400120: 'PalmTreeSingleBendedOneSided '
+    400122: PalmTreeSingleBendedTwoSided
+    400124: 'PalmTreeSingleBendedTwoSided '
+    400126: PalmTreeSingleBendedTwoSided  1
+    400128: PalmTreeSingleBendedTwoSided  2
+    400130: PalmTreeSingleStraightTwoSided
+    400132: PalmTreeTrioOneSided
+    400134: PalmTreeTrioTwoSided
+    400136: pCube10
+    400138: pCube11
+    400140: pCube3
+    400142: pCube4
+    400144: pCylinder2
+    400146: pCylinder2 1
+    400148: pCylinder2 2
+    400150: pCylinder2 3
+    400152: pCylinder2 4
+    400154: pCylinder2 5
+    400156: pCylinder3
+    400158: pCylinder3 1
+    400160: pCylinder3 2
+    400162: pCylinder3 3
+    400164: pCylinder3 4
+    400166: pCylinder3 5
+    400168: pCylinder4
+    400170: pCylinder4 1
+    400172: pCylinder4 2
+    400174: pCylinder4 3
+    400176: pCylinder4 4
+    400178: pCylinder4 5
+    400180: pCylinder5
+    400182: pCylinder5 1
+    400184: pCylinder5 2
+    400186: pCylinder5 3
+    400188: pCylinder5 4
+    400190: pCylinder5 5
+    400192: pCylinder51
+    400194: pCylinder6
+    400196: pCylinder6 1
+    400198: pCylinder6 2
+    400200: pCylinder6 3
+    400202: pCylinder6 4
+    400204: pCylinder6 5
+    400206: peacok_low_GT2017_v2:Mesh
+    400208: pillar10
+    400210: pillar11
+    400212: pillar12
+    400214: pillar13
+    400216: pillar14
+    400218: pillar9
+    400220: pillarhead
+    400222: pillarhead 1
+    400224: pillarhead 10
+    400226: pillarhead 11
+    400228: pillarhead 2
+    400230: pillarhead 3
+    400232: pillarhead 4
+    400234: pillarhead 5
+    400236: pillarhead 6
+    400238: pillarhead 7
+    400240: pillarhead 8
+    400242: pillarhead 9
+    400244: prefab
+    400246: 'prefab '
+    400248: prefab  1
+    400250: prefab  2
+    400252: prefab  3
+    400254: prefab  4
+    400256: small_pillar
+    400258: small_pillar1
+    400260: small_pillar2
+    400262: small_pillar3
+    400264: small_pillar4
+    400266: small_pillar5
+    400268: throne
+    400270: UCX_floor3
+    400272: window
+    400274: window10
+    400276: window11
+    400278: window12
+    400280: window13
+    400282: window14
+    400284: window15
+    400286: window16
+    400288: window17
+    400290: window18
+    400292: window19
+    400294: window20
+    400296: window21
+    400298: window22
+    400300: window23
+    400302: window24
+    400304: window25
+    400306: window26
+    400308: window27
+    400310: window28
+    400312: window29
+    400314: window30
+    400316: window31
+    400318: window32
+    400320: window7
+    400322: window8
+    400324: window_frame
+    400326: window_frame 1
+    400328: window_frame 10
+    400330: window_frame 11
+    400332: window_frame 12
+    400334: window_frame 13
+    400336: window_frame 14
+    400338: window_frame 15
+    400340: window_frame 16
+    400342: window_frame 17
+    400344: window_frame 18
+    400346: window_frame 19
+    400348: window_frame 2
+    400350: window_frame 20
+    400352: window_frame 21
+    400354: window_frame 22
+    400356: window_frame 23
+    400358: window_frame 24
+    400360: window_frame 25
+    400362: window_frame 3
+    400364: window_frame 4
+    400366: window_frame 5
+    400368: window_frame 6
+    400370: window_frame 7
+    400372: window_frame 8
+    400374: window_frame 9
+    400376: //RootNode
+    2100000: lambert7
+    2100002: lambert10
+    2100004: floor2
+    2100006: gold1
+    2100008: wall3
+    2100010: edge1
+    2100012: Floor4
+    2100014: pillar7
+    2100016: pillar8
+    2100018: window5
+    2100020: peacok_low_GT2017_v2_material_2
+    2100022: lambert11
+    2100024: window6
+    2100026: window9
+    2100028: lambert12
+    2100030: Fountain-Material.001
+    2100032: New Material
+    2100034: PalmTrees Leafs Mat
+    2100036: PalmTrees trunk Mat
+    2100038: dd
+    2300000: dutchdragon3
+    2300002: 'dutchdragon3 '
+    2300004: floor1
+    2300006: fountain_LOD0
+    2300008: 'fountain_LOD0 '
+    2300010: fountain_LOD0  1
+    2300012: fountain_LOD0  2
+    2300014: fountain_LOD1
+    2300016: fountain_LOD1_1
+    2300018: fountain_LOD1_2
+    2300020: fountain_LOD1_3
+    2300022: grass1
+    2300024: grass2
+    2300026: grass3
+    2300028: grass_1
+    2300030: head
+    2300032: PalmTree_dual_bended_leafs_1sided
+    2300034: PalmTree_dual_bended_leafs_2sided
+    2300036: PalmTree_dual_bended_leafs_2sided_1
+    2300038: PalmTree_dual_bended_leafs_2sided_2
+    2300040: PalmTree_dual_bended_trunk
+    2300042: PalmTree_dual_bended_trunk_1
+    2300044: PalmTree_dual_bended_trunk_2
+    2300046: PalmTree_dual_bended_trunk_3
+    2300048: PalmTree_dual_leafs_1sided
+    2300050: PalmTree_dual_leafs_1sided_1
+    2300052: PalmTree_dual_leafs_1sided_2
+    2300054: PalmTree_dual_leafs_2sided
+    2300056: PalmTree_dual_trunk
+    2300058: PalmTree_dual_trunk_1
+    2300060: PalmTree_dual_trunk_2
+    2300062: PalmTree_dual_trunk_3
+    2300064: PalmTree_single_bended_leafs_1sided
+    2300066: PalmTree_single_bended_leafs_1sided_1
+    2300068: PalmTree_single_bended_leafs_2sided
+    2300070: PalmTree_single_bended_leafs_2sided_1
+    2300072: PalmTree_single_bended_leafs_2sided_2
+    2300074: PalmTree_single_bended_leafs_2sided_3
+    2300076: PalmTree_single_bended_trunk
+    2300078: PalmTree_single_bended_trunk_1
+    2300080: PalmTree_single_bended_trunk_2
+    2300082: PalmTree_single_bended_trunk_3
+    2300084: PalmTree_single_bended_trunk_4
+    2300086: PalmTree_single_bended_trunk_5
+    2300088: PalmTree_single_leafs_2sided
+    2300090: PalmTree_single_trunk
+    2300092: PalmTree_trio_leafs_1sided
+    2300094: PalmTree_trio_leafs_2sided
+    2300096: PalmTree_trio_trunk
+    2300098: PalmTree_trio_trunk_1
+    2300100: pCube10
+    2300102: pCube11
+    2300104: pCube3
+    2300106: pCube4
+    2300108: pCylinder2
+    2300110: pCylinder2 1
+    2300112: pCylinder2 2
+    2300114: pCylinder2 3
+    2300116: pCylinder2 4
+    2300118: pCylinder2 5
+    2300120: pCylinder3
+    2300122: pCylinder3 1
+    2300124: pCylinder3 2
+    2300126: pCylinder3 3
+    2300128: pCylinder3 4
+    2300130: pCylinder3 5
+    2300132: pCylinder4
+    2300134: pCylinder4 1
+    2300136: pCylinder4 2
+    2300138: pCylinder4 3
+    2300140: pCylinder4 4
+    2300142: pCylinder4 5
+    2300144: pCylinder5
+    2300146: pCylinder5 1
+    2300148: pCylinder5 2
+    2300150: pCylinder5 3
+    2300152: pCylinder5 4
+    2300154: pCylinder5 5
+    2300156: pCylinder51
+    2300158: pCylinder6
+    2300160: pCylinder6 1
+    2300162: pCylinder6 2
+    2300164: pCylinder6 3
+    2300166: pCylinder6 4
+    2300168: pCylinder6 5
+    2300170: peacok_low_GT2017_v2:Mesh
+    2300172: pillar10
+    2300174: pillar11
+    2300176: pillar12
+    2300178: pillar13
+    2300180: pillar14
+    2300182: pillar9
+    2300184: pillarhead
+    2300186: pillarhead 1
+    2300188: pillarhead 10
+    2300190: pillarhead 11
+    2300192: pillarhead 2
+    2300194: pillarhead 3
+    2300196: pillarhead 4
+    2300198: pillarhead 5
+    2300200: pillarhead 6
+    2300202: pillarhead 7
+    2300204: pillarhead 8
+    2300206: pillarhead 9
+    2300208: prefab
+    2300210: 'prefab '
+    2300212: prefab  1
+    2300214: prefab  2
+    2300216: prefab  3
+    2300218: prefab  4
+    2300220: small_pillar
+    2300222: small_pillar1
+    2300224: small_pillar2
+    2300226: small_pillar3
+    2300228: small_pillar4
+    2300230: small_pillar5
+    2300232: throne
+    2300234: UCX_floor3
+    2300236: window
+    2300238: window10
+    2300240: window11
+    2300242: window12
+    2300244: window13
+    2300246: window14
+    2300248: window15
+    2300250: window16
+    2300252: window17
+    2300254: window18
+    2300256: window19
+    2300258: window20
+    2300260: window21
+    2300262: window22
+    2300264: window23
+    2300266: window24
+    2300268: window25
+    2300270: window26
+    2300272: window27
+    2300274: window28
+    2300276: window29
+    2300278: window30
+    2300280: window31
+    2300282: window32
+    2300284: window7
+    2300286: window8
+    2300288: window_frame
+    2300290: window_frame 1
+    2300292: window_frame 10
+    2300294: window_frame 11
+    2300296: window_frame 12
+    2300298: window_frame 13
+    2300300: window_frame 14
+    2300302: window_frame 15
+    2300304: window_frame 16
+    2300306: window_frame 17
+    2300308: window_frame 18
+    2300310: window_frame 19
+    2300312: window_frame 2
+    2300314: window_frame 20
+    2300316: window_frame 21
+    2300318: window_frame 22
+    2300320: window_frame 23
+    2300322: window_frame 24
+    2300324: window_frame 25
+    2300326: window_frame 3
+    2300328: window_frame 4
+    2300330: window_frame 5
+    2300332: window_frame 6
+    2300334: window_frame 7
+    2300336: window_frame 8
+    2300338: window_frame 9
+    3300000: dutchdragon3
+    3300002: 'dutchdragon3 '
+    3300004: floor1
+    3300006: fountain_LOD0
+    3300008: 'fountain_LOD0 '
+    3300010: fountain_LOD0  1
+    3300012: fountain_LOD0  2
+    3300014: fountain_LOD1
+    3300016: fountain_LOD1_1
+    3300018: fountain_LOD1_2
+    3300020: fountain_LOD1_3
+    3300022: grass1
+    3300024: grass2
+    3300026: grass3
+    3300028: grass_1
+    3300030: head
+    3300032: PalmTree_dual_bended_leafs_1sided
+    3300034: PalmTree_dual_bended_leafs_2sided
+    3300036: PalmTree_dual_bended_leafs_2sided_1
+    3300038: PalmTree_dual_bended_leafs_2sided_2
+    3300040: PalmTree_dual_bended_trunk
+    3300042: PalmTree_dual_bended_trunk_1
+    3300044: PalmTree_dual_bended_trunk_2
+    3300046: PalmTree_dual_bended_trunk_3
+    3300048: PalmTree_dual_leafs_1sided
+    3300050: PalmTree_dual_leafs_1sided_1
+    3300052: PalmTree_dual_leafs_1sided_2
+    3300054: PalmTree_dual_leafs_2sided
+    3300056: PalmTree_dual_trunk
+    3300058: PalmTree_dual_trunk_1
+    3300060: PalmTree_dual_trunk_2
+    3300062: PalmTree_dual_trunk_3
+    3300064: PalmTree_single_bended_leafs_1sided
+    3300066: PalmTree_single_bended_leafs_1sided_1
+    3300068: PalmTree_single_bended_leafs_2sided
+    3300070: PalmTree_single_bended_leafs_2sided_1
+    3300072: PalmTree_single_bended_leafs_2sided_2
+    3300074: PalmTree_single_bended_leafs_2sided_3
+    3300076: PalmTree_single_bended_trunk
+    3300078: PalmTree_single_bended_trunk_1
+    3300080: PalmTree_single_bended_trunk_2
+    3300082: PalmTree_single_bended_trunk_3
+    3300084: PalmTree_single_bended_trunk_4
+    3300086: PalmTree_single_bended_trunk_5
+    3300088: PalmTree_single_leafs_2sided
+    3300090: PalmTree_single_trunk
+    3300092: PalmTree_trio_leafs_1sided
+    3300094: PalmTree_trio_leafs_2sided
+    3300096: PalmTree_trio_trunk
+    3300098: PalmTree_trio_trunk_1
+    3300100: pCube10
+    3300102: pCube11
+    3300104: pCube3
+    3300106: pCube4
+    3300108: pCylinder2
+    3300110: pCylinder2 1
+    3300112: pCylinder2 2
+    3300114: pCylinder2 3
+    3300116: pCylinder2 4
+    3300118: pCylinder2 5
+    3300120: pCylinder3
+    3300122: pCylinder3 1
+    3300124: pCylinder3 2
+    3300126: pCylinder3 3
+    3300128: pCylinder3 4
+    3300130: pCylinder3 5
+    3300132: pCylinder4
+    3300134: pCylinder4 1
+    3300136: pCylinder4 2
+    3300138: pCylinder4 3
+    3300140: pCylinder4 4
+    3300142: pCylinder4 5
+    3300144: pCylinder5
+    3300146: pCylinder5 1
+    3300148: pCylinder5 2
+    3300150: pCylinder5 3
+    3300152: pCylinder5 4
+    3300154: pCylinder5 5
+    3300156: pCylinder51
+    3300158: pCylinder6
+    3300160: pCylinder6 1
+    3300162: pCylinder6 2
+    3300164: pCylinder6 3
+    3300166: pCylinder6 4
+    3300168: pCylinder6 5
+    3300170: peacok_low_GT2017_v2:Mesh
+    3300172: pillar10
+    3300174: pillar11
+    3300176: pillar12
+    3300178: pillar13
+    3300180: pillar14
+    3300182: pillar9
+    3300184: pillarhead
+    3300186: pillarhead 1
+    3300188: pillarhead 10
+    3300190: pillarhead 11
+    3300192: pillarhead 2
+    3300194: pillarhead 3
+    3300196: pillarhead 4
+    3300198: pillarhead 5
+    3300200: pillarhead 6
+    3300202: pillarhead 7
+    3300204: pillarhead 8
+    3300206: pillarhead 9
+    3300208: prefab
+    3300210: 'prefab '
+    3300212: prefab  1
+    3300214: prefab  2
+    3300216: prefab  3
+    3300218: prefab  4
+    3300220: small_pillar
+    3300222: small_pillar1
+    3300224: small_pillar2
+    3300226: small_pillar3
+    3300228: small_pillar4
+    3300230: small_pillar5
+    3300232: throne
+    3300234: UCX_floor3
+    3300236: window
+    3300238: window10
+    3300240: window11
+    3300242: window12
+    3300244: window13
+    3300246: window14
+    3300248: window15
+    3300250: window16
+    3300252: window17
+    3300254: window18
+    3300256: window19
+    3300258: window20
+    3300260: window21
+    3300262: window22
+    3300264: window23
+    3300266: window24
+    3300268: window25
+    3300270: window26
+    3300272: window27
+    3300274: window28
+    3300276: window29
+    3300278: window30
+    3300280: window31
+    3300282: window32
+    3300284: window7
+    3300286: window8
+    3300288: window_frame
+    3300290: window_frame 1
+    3300292: window_frame 10
+    3300294: window_frame 11
+    3300296: window_frame 12
+    3300298: window_frame 13
+    3300300: window_frame 14
+    3300302: window_frame 15
+    3300304: window_frame 16
+    3300306: window_frame 17
+    3300308: window_frame 18
+    3300310: window_frame 19
+    3300312: window_frame 2
+    3300314: window_frame 20
+    3300316: window_frame 21
+    3300318: window_frame 22
+    3300320: window_frame 23
+    3300322: window_frame 24
+    3300324: window_frame 25
+    3300326: window_frame 3
+    3300328: window_frame 4
+    3300330: window_frame 5
+    3300332: window_frame 6
+    3300334: window_frame 7
+    3300336: window_frame 8
+    3300338: window_frame 9
+    4300000: UCX_floor3
+    4300002: floor1
+    4300004: head
+    4300006: pCube3
+    4300008: pCube4
+    4300010: pCube10
+    4300012: pCube11
+    4300014: pCylinder51
+    4300016: peacok_low_GT2017_v2:Mesh
+    4300018: pillar9
+    4300020: pCylinder2
+    4300022: pCylinder3
+    4300024: pCylinder4
+    4300026: pCylinder5
+    4300028: pCylinder6
+    4300030: pillarhead
+    4300032: pillar10
+    4300034: pCylinder2 3
+    4300036: pCylinder3 3
+    4300038: pCylinder4 3
+    4300040: pCylinder5 3
+    4300042: pCylinder6 3
+    4300044: pillarhead 3
+    4300046: pillar11
+    4300048: pCylinder2 4
+    4300050: pCylinder3 4
+    4300052: pCylinder4 4
+    4300054: pCylinder5 4
+    4300056: pCylinder6 4
+    4300058: pillarhead 4
+    4300060: pillar12
+    4300062: pCylinder2 5
+    4300064: pCylinder3 5
+    4300066: pCylinder4 5
+    4300068: pCylinder5 5
+    4300070: pCylinder6 5
+    4300072: pillarhead 5
+    4300074: pillar13
+    4300076: pCylinder2 1
+    4300078: pCylinder3 1
+    4300080: pCylinder4 1
+    4300082: pCylinder5 1
+    4300084: pCylinder6 1
+    4300086: pillarhead 1
+    4300088: pillar14
+    4300090: pCylinder2 2
+    4300092: pCylinder3 2
+    4300094: pCylinder4 2
+    4300096: pCylinder5 2
+    4300098: pCylinder6 2
+    4300100: pillarhead 2
+    4300102: small_pillar
+    4300104: pillarhead 6
+    4300106: small_pillar1
+    4300108: pillarhead 7
+    4300110: small_pillar2
+    4300112: pillarhead 8
+    4300114: small_pillar3
+    4300116: pillarhead 9
+    4300118: small_pillar4
+    4300120: pillarhead 10
+    4300122: small_pillar5
+    4300124: pillarhead 11
+    4300126: throne
+    4300128: window
+    4300130: window_frame
+    4300132: window7
+    4300134: window_frame 19
+    4300136: window8
+    4300138: window_frame 20
+    4300140: window10
+    4300142: window_frame 21
+    4300144: window11
+    4300146: window_frame 22
+    4300148: window12
+    4300150: window_frame 23
+    4300152: window13
+    4300154: window_frame 24
+    4300156: window14
+    4300158: window_frame 25
+    4300160: window15
+    4300162: window_frame 1
+    4300164: window16
+    4300166: window_frame 2
+    4300168: window17
+    4300170: window_frame 3
+    4300172: window18
+    4300174: window_frame 4
+    4300176: window19
+    4300178: window_frame 5
+    4300180: window20
+    4300182: window_frame 6
+    4300184: window21
+    4300186: window_frame 7
+    4300188: window22
+    4300190: window_frame 8
+    4300192: window23
+    4300194: window_frame 9
+    4300196: window24
+    4300198: window_frame 10
+    4300200: window25
+    4300202: window_frame 11
+    4300204: window26
+    4300206: window_frame 12
+    4300208: window27
+    4300210: window_frame 13
+    4300212: window28
+    4300214: window_frame 14
+    4300216: window29
+    4300218: window_frame 15
+    4300220: window30
+    4300222: window_frame 16
+    4300224: window31
+    4300226: window_frame 17
+    4300228: window32
+    4300230: window_frame 18
+    4300232: fountain_LOD0
+    4300234: fountain_LOD1
+    4300236: grass_1
+    4300238: grass1
+    4300240: grass2
+    4300242: grass3
+    4300244: 'fountain_LOD0 '
+    4300246: fountain_LOD1_1
+    4300248: 'fountain_LOD0 '
+    4300250: fountain_LOD1_2
+    4300252: 'fountain_LOD0 '
+    4300254: fountain_LOD1_3
+    4300256: PalmTree_dual_bended_leafs_2sided
+    4300258: PalmTree_dual_bended_trunk
+    4300260: PalmTree_single_bended_leafs_2sided
+    4300262: PalmTree_single_bended_trunk
+    4300264: PalmTree_single_bended_leafs_2sided_1
+    4300266: PalmTree_single_bended_trunk_1
+    4300268: PalmTree_dual_bended_leafs_1sided
+    4300270: PalmTree_dual_bended_trunk_1
+    4300272: PalmTree_dual_bended_leafs_2sided_1
+    4300274: PalmTree_dual_bended_trunk_2
+    4300276: PalmTree_single_bended_leafs_2sided_2
+    4300278: PalmTree_single_bended_trunk_2
+    4300280: PalmTree_single_leafs_2sided
+    4300282: PalmTree_single_trunk
+    4300284: PalmTree_dual_leafs_1sided
+    4300286: PalmTree_dual_trunk
+    4300288: PalmTree_dual_leafs_2sided
+    4300290: PalmTree_dual_trunk_1
+    4300292: PalmTree_trio_leafs_2sided
+    4300294: PalmTree_trio_trunk
+    4300296: PalmTree_trio_leafs_1sided
+    4300298: PalmTree_trio_trunk_1
+    4300300: PalmTree_single_bended_leafs_2sided_3
+    4300302: PalmTree_single_bended_trunk_3
+    4300304: PalmTree_dual_leafs_1sided_1
+    4300306: PalmTree_dual_trunk_2
+    4300308: PalmTree_dual_bended_leafs_2sided_2
+    4300310: PalmTree_dual_bended_trunk_3
+    4300312: PalmTree_dual_leafs_1sided_2
+    4300314: PalmTree_dual_trunk_3
+    4300316: PalmTree_single_bended_leafs_1sided
+    4300318: PalmTree_single_bended_trunk_4
+    4300320: PalmTree_single_bended_leafs_1sided_1
+    4300322: PalmTree_single_bended_trunk_5
+    4300324: dutchdragon3
+    4300326: 'dutchdragon3 '
+    4300328: 'prefab '
+    4300330: 'prefab '
+    4300332: 'prefab '
+    4300334: 'prefab '
+    4300336: 'prefab '
+    4300338: prefab
+    20500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -10,20 +10,26 @@ public class EnemyCollide : MonoBehaviour {
 	void Start () {
 		
 	}
+
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         if (hit.gameObject.tag == "Collectable")
         {
             Debug.Log("(EnemyCollect) OnControllerColliderHit with " + hit.gameObject.name);
         }
+        if ( hit.gameObject.tag == "Player")
+        {
+            Debug.Log("(EnemyCollect) Up yers");
+        }
         
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.tag == "Weapon" && Input.GetMouseButton(0))
+        //if (collision.collider.tag == "Weapon" && Input.GetMouseButton(0))
+        if (collision.collider.tag == "Weapon")
         {
-
+            Debug.Log("(Opponent) wounded");
             pointsOfGeneralHealthAndWellbeing -= 30;
         }
     }
